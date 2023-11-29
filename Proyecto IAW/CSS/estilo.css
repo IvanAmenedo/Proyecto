@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Nerko+One&family=Source+Code+Pro&display=swap');
+
+/*Index*/
+
+html {
+	width:100%; height:100%;
+}
+
+#principio {
+	margin: auto;
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	text-align: center;
+	color: red;
+	background-color: white;
+}
+
+#nosotros {
+	background-color: #f0394d;
+	color:white;
+	text-align: center;
+	padding: 20px;
+}
+
+#logo {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	float:right;
+}
+
+#links {
+	margin: auto;
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+#redes {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	float:right;
+	display: block;
+
+}
+
+#ofertas {
+	justify-content: space-evenly;
+	text-align: center;
+	margin: auto;
+}
+
+
+footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: serif;
+}
+
+/*Clientes*/
+
+legend {
+	text-align:center;
+	font-style:
+}
+#datosacceso {
+	width:30%;
+	margin:auto;
+	border: 1px solid red;
+	border-radius:10px;
+	padding:5px;
+	background-color:lightgrey;
+	
+}
+#datosacceso input {
+  box-sizing: border-box;
+  margin:auto;
+}
+
+#datosacceso button{
+  padding: 0.85em 1.5em;
+  font-size: 1 em;
+  text-decoration: none;
+  color:white;
+  background-color:#f0394d;
+  border: 1px solid red;
+  border-radius:5px;
+  box-sizing: border-box;
+  margin:auto;
+}
+	
+h3 {
+	text-align:center;
+}
+
+hr {
+	color:#f0394d;
+	height:1px;
+	border:1px dashed;
+}
+
+#conjuntocliente {
+	margin:auto;
+	background-color:#f0394d;
+	width:70%;
+	border: 1px solid red;
+}
+
+.inputs {
+	border:1 px solid lightgrey;
+	border-radius:5px ;
+	height:2em;
+	width:100%;
+}
+#nuevocliente {
+	width:50%;
+	margin:auto;
+	border: 1px dashed red;
+	border-radius:10px;
+	padding:5px;
+	background-color:lightgrey;
+}
+
+
+#nuevocliente button{
+ padding: 0.85em 1.5em;
+  font-size: 1 em;
+  text-decoration: none;
+  color:white;
+  background-color:#f0394d;
+  border: 1px solid red;
+  border-radius:5px;
+  box-sizing: border-box;
+  margin:auto;
+}
+#nuevocliente :focus {
+	background:blue;
+	color:white;
+}
+
+@media screen and (max-width: 468px){
+	#nav ul {
+		float:left;
+	}
+	#nav ul li{
+		float:right;
+	}
+	#links li a {
+		display:inline-block;
+    }
+	img{
+		max-width:100%;
+		display: block;
+	}
+	body{
+		width:100%;
+		padding:0px;
+	}
+}
